@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    justify-content: space-around
+    ;
+    list-style: none;
+    background-color:eeeeee;
+    padding: 10px;
+    font-size: 20px;
+  
+}
+a{text-decoration: none;
+color: black;}

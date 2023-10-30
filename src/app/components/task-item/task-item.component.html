@@ -1,0 +1,10 @@
+<!-- mapped component -->
+<!--  If task.reminder is true, the reminder class will be applied to the element. -->
+<!-- [ngClass] directive apply css classes conditionally -->
+<div [ngClass]="{reminder:test.reminder}" class="task" (click)="onReminder(test)">
+  <h3>
+    {{ test.text }}
+    <fa-icon (click)="onDelete(test)" [icon]="faXmark" [ngStyle]="{ color: 'red' }"></fa-icon>
+  </h3>
+  <p>{{ test.day }}</p>
+</div>

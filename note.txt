@@ -1,0 +1,13 @@
+npm i -g @angular/cli
+ng new my-app-angular
+ng serve
+to add new component: ng generatr component components/header
+
+run backend server: 
+npm run server
+
+
+When we talk about asynchronous code, we simply mean that the code isn't executed sequentially and the process involves multithreading. It is a form of parallel programming that executes a separate block of code without breaking the primary application thread.
+to handle asyncronus opertaion : Promise or Observable
+
+https://www.youtube.com/watch?v=3dHNOWTI7H8

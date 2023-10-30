@@ -1,0 +1,12 @@
+<!-- mapping for task-item component for tasks as task  -->
+<!-- passing task props as task  -->
+<div class="container">
+<app-header></app-header>
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
+<app-task-item
+  *ngFor="let task of tasks"
+  [test]="task"
+  (onDeleteTask)="deleteTask(task)"
+  (onReminderTask)="reminderTask(task)"
+></app-task-item>
+  <app-footer></app-footer></div>
